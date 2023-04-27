@@ -18,5 +18,3 @@ def hello_name(name):
 @app.route("/path/<path:subpath>")
 def subpath_route(subpath):
     return f'Subpath is {escape(subpath)}'
-
-
